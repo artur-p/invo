@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "development",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "",
+      "program": "lib/app/variants/main_development.dart",
+      "args": [
+      ]
+    }
+  ]
+}
