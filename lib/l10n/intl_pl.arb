@@ -1,0 +1,17 @@
+{
+  "@@locale": "pl",
+  "noData": "brak danych",
+  "allergens": "Alergeny",
+  "wheat": "Pszenica",
+  "gluten": "Gluten",
+  "milk": "Mleko",
+  "ingredients": "Składniki",
+  "sizeS": "Rozmiar S",
+  "sizeM": "Rozmiar M",
+  "sizeL": "Rozmiar L",
+  "calories": "Calories",
+  "proteins": "Proteins",
+  "carbs": "Carbs",
+  "fat": "Fat",
+  "mealDetails": "Szczegóły posiłku"
+}

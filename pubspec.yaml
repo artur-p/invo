@@ -1,0 +1,62 @@
+name: invo_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^9.0.0
+  collection: ^1.19.1
+  copy_with_extension: ^6.0.1
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.7
+  flutter_bloc: ^9.0.0
+  flutter_hooks: ^0.20.5
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.1.0
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  get_it: ^8.0.3
+  go_router: ^16.0.0
+  rxdart: ^0.28.0
+  injectable: ^2.5.0
+  json_annotation: ^4.9.0
+  logging: ^1.3.0
+  provider: ^6.1.5
+  meta: ^1.16.0
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  build_runner: ^2.4.14
+  flutter_gen_runner: ^5.10.0
+  copy_with_extension_gen: ^6.0.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  injectable_generator: ^2.7.0
+  json_serializable: ^6.9.5
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: InterDisplay
+      fonts:
+        - asset: lib/app/foundations/fonts/InterDisplay-Black.ttf
+        - asset: lib/app/foundations/fonts/InterDisplay-Bold.ttf
+        - asset: lib/app/foundations/fonts/InterDisplay-ExtraBold.ttf
+        - asset: lib/app/foundations/fonts/InterDisplay-Italic.ttf
+        - asset: lib/app/foundations/fonts/InterDisplay-Light.ttf
+
+
